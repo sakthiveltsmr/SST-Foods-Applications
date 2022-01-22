@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SST Food Applications</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts     -->
+
+    <section class="header">
+      <a href="#" class="logo"> <i class="fas fa-utensils"></i> SST Foods </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#food">Food</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <!-- header section ends    -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Outstanding Food</span>
+              <h3>Delicious Cooking</h3>
+              <a href="#food" class="btn">get started</a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Outstanding Food</span>
+              <h3>Morning Moment</h3>
+              <a href="#food" class="btn">get started</a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Outstanding Food</span>
+              <h3>Authentic Kitchen</h3>
+              <a href="#food" class="btn">get started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <div class="image">
+        <img src="images/about-img.png" alt="" />
+      </div>
+
+      <div class="content">
+        <h3 class="title">Welcome to SST Foods</h3>
+        <p>Celebrate the Holidays at Botains!</p>
+        <p>
+          `Tis the season to be hungry! Gather round our table at Botanist and
+          you'll be in for a holiday treat with the festival fete Chef Hector .`
+        </p>
+        <a href="#" class="btn">read more</a>
+        <div class="icons-container">
+          <div class="icons">
+            <img src="images/about-icon-1.png" alt="" />
+            <h3>quality food</h3>
+          </div>
+          <div class="icons">
+            <img src="images/about-icon-2.png" alt="" />
+            <h3>food & drinks</h3>
+          </div>
+          <div class="icons">
+            <img src="images/about-icon-3.png" alt="" />
+            <h3>expert chefs</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- food section starts  -->
+
+    <section class="food" id="food">
+      <div class="heading">
+        <span>Popular Dishes</span>
+        <h3>Our Delicious Food</h3>
+      </div>
+
+      <div class="swiper food-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="" />
+            <h3>Shell salads</h3>
+            <div class="price">₹550</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="" />
+            <h3>Asian salad Bowl</h3>
+            <div class="price">₹250</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="" />
+            <h3>Chicken lollipops</h3>
+            <div class="price">₹400</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/food-img-4.png" alt="" />
+            <h3>Fresh fish cuts</h3>
+            <div class="price">₹350</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/food-img-5.png" alt="" />
+            <h3>Grilled beef</h3>
+            <div class="price">₹1000</div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- food section ends -->
+
+    <!-- food preview section starts  -->
+
+    <section class="food-preview-container">
+      <div id="close-preview" class="fas fa-times"></div>
+
+      <div class="food-preview" data-target="food-1">
+        <img src="images/food-img-1.png" alt="" />
+        <h3>Shell salads</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          Healthy Food, Shell Salad, Fast Food, Beverages Express Avenue Mall,
+          Royapettah, Chennai.
+        </p>
+        <div class="price">₹550</div>
+        <a href="#" class="btn">buy now</a>
+      </div>
+
+      <div class="food-preview" data-target="food-2">
+        <img src="images/food-img-2.png" alt="" />
+        <h3>Asian salad Bowl</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>Chinese, Asian, Thai, Momos, Malaysian T. Nagar, Chennai.</p>
+        <div class="price">₹250</div>
+        <a href="#" class="btn">buy now</a>
+      </div>
+
+      <div class="food-preview" data-target="food-3">
+        <img src="images/food-img-3.png" alt="" />
+        <h3>Chicken lollipops</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          South Indian, Chettinad, North Indian, Chinese, BBQ Triplicane,
+          Chennai.
+        </p>
+        <div class="price">₹400</div>
+        <a href="#" class="btn">buy now</a>
+      </div>
+
+      <div class="food-preview" data-target="food-4">
+        <img src="images/food-img-4.png" alt="" />
+        <h3>Fresh fish cuts</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          North Indian, Mughlai, Chinese, Beverages, Desserts, Kebab, Shake
+          Thousand Lights, Chennai.
+        </p>
+        <div class="price">₹350</div>
+        <a href="#" class="btn">buy now</a>
+      </div>
+
+      <div class="food-preview" data-target="food-5">
+        <img src="images/food-img-5.png" alt="" />
+        <h3>Grilled beef</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          North Indian, Mughlai, Shake Old Mahabalipuram Road (OMR), Chennai.
+        </p>
+        <div class="price">₹1000</div>
+        <a href="#" class="btn">buy now</a>
+      </div>
+    </section>
+
+    <!-- food preview section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <div class="heading">
+        <span>Our gallery</span>
+        <h3>Choose Your Food</h3>
+      </div>
+
+      <div class="gallery-container">
+        <a href="images/food-galler-img-1.jpg" class="box">
+          <img src="images/food-galler-img-1.jpg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/food-galler-img-2.jpg" class="box">
+          <img src="images/food-galler-img-2.jpg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/food-galler-img-3.jpg" class="box">
+          <img src="images/food-galler-img-3.jpg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/food-galler-img-4.jpg" class="box">
+          <img src="images/food-galler-img-4.jpg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/food-galler-img-5.jpg" class="box">
+          <img src="images/food-galler-img-5.jpg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/food-galler-img-6.jpg" class="box">
+          <img src="images/food-galler-img-6.jpg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+      <div class="heading">
+        <span>our menu</span>
+        <h3>our popular dishes</h3>
+      </div>
+
+      <div class="swiper menu-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <h3 class="title">Breakfast</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>Eggs</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹50</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Greek yogurt</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹40</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Coffee</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹20</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Oatmeal</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹90</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Berries</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹150</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Nuts</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹200</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <h3 class="title">lunch</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>Veggie burgers</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹250</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Black beans</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹150</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Hyderabad biryani</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹300</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Meals</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹100</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <h3 class="title">dinner</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>Kesari Sabudana Khichdi</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹150</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Palak Paneer</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹180</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Low Fat Butter Chicken</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹280</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Vermicelli Chicken Biryani</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹450</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Moong Dal Ki Khichdi</h3>
+                  <p>
+                    SST Coupons, Offers: 60% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹300</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <h3 class="title">drinks</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>Plum Juice</h3>
+                  <p>
+                    SST Coupons, Offers: 30% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹105</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Cranberry Juice</h3>
+                  <p>
+                    SST Coupons, Offers: 30% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹225</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Orange Juice</h3>
+                  <p>
+                    SST Coupons, Offers: 30% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹90</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Apple Juice</h3>
+                  <p>
+                    SST Coupons, Offers: 30% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹120</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Lemeon Juice</h3>
+                  <p>
+                    SST Coupons, Offers: 30% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹40</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Badam Milk</h3>
+                  <p>
+                    SST Coupons, Offers: 30% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹79</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <h3 class="title">Dessert</h3>
+            <div class="box-container">
+              <div class="box">
+                <div class="info">
+                  <h3>Almond Malai Kulfi</h3>
+                  <p>
+                    SST Coupons, Offers: 40% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹154</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Apple Pie</h3>
+                  <p>
+                    SST Coupons, Offers: 40% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹350</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Lemon Tart</h3>
+                  <p>
+                    SST Coupons, Offers: 40% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹190</div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <h3>Pistachio Phirni</h3>
+                  <p>
+                    SST Coupons, Offers: 40% + ₹150 OFF SST Offers ; Rs.75
+                    Cashback. Flat Rs 75 Cashback with HDFC Bank Debit Cards.
+                  </p>
+                </div>
+                <div class="price">₹505</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+      <div class="heading">
+        <span>Order Now</span>
+        <h3>Fast Home Delivery</h3>
+      </div>
+
+      <form action="">
+        <div class="box-container">
+          <div class="box">
+            <div class="inputBox">
+              <span>Full name</span>
+              <input type="text" placeholder="enter your name" />
+            </div>
+            <div class="inputBox">
+              <span>Food name</span>
+              <input type="text" placeholder="food you want" />
+            </div>
+            <div class="inputBox">
+              <span>Order details</span>
+              <input type="text" placeholder="specifics with food" />
+            </div>
+            <div class="inputBox">
+              <span>Your address</span>
+              <textarea
+                name=""
+                placeholder="enter your address"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+          <div class="box">
+            <div class="inputBox">
+              <span>Number</span>
+              <input type="number" placeholder="enter your number" />
+            </div>
+            <div class="inputBox">
+              <span>How much</span>
+              <input type="number" placeholder="how many you want" />
+            </div>
+            <div class="inputBox">
+              <span>When you want</span>
+              <input type="datetime-local" />
+            </div>
+            <div class="inputBox">
+              <span>Address</span>
+              <iframe
+                class="map"
+                src="https://maps.google.com/maps?q=chennai%20restarent&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+      <div class="heading">
+        <span>Our Blogs</span>
+        <h3>Your Old Order</h3>
+      </div>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-1.jpg" alt="" />
+              <span>Burger</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"> <i class="fas fa-calendar"></i> 21st Jan, 2022 </a>
+                <a href="#"> <i class="fas fa-user"></i> by admin </a>
+              </div>
+              <a href="#" class="title">Burger</a>
+              <p>Burger, Fast Food, Beverages Besant Nagar, Chennai.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-2.jpg" alt="" />
+              <span>sandwich</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"> <i class="fas fa-calendar"></i> 30st Dec, 2021 </a>
+                <a href="#"> <i class="fas fa-user"></i> by admin </a>
+              </div>
+              <a href="#" class="title">Sandwich</a>
+              <p>
+                Healthy Food, Sandwich, Salad, Fast Food, Wraps, Beverages
+                Express Avenue Mall, Royapettah, Chennai.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-3.jpg" alt="" />
+              <span>chicken</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"> <i class="fas fa-calendar"></i> 01st Jan, 2022 </a>
+                <a href="#"> <i class="fas fa-user"></i> by admin </a>
+              </div>
+              <a href="#" class="title">Chicken</a>
+              <p>North Indian, Chinese, South Indian Parrys, Chennai.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-4.jpg" alt="" />
+              <span>ice-cream</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"> <i class="fas fa-calendar"></i> 21st Jun, 2021 </a>
+                <a href="#"> <i class="fas fa-user"></i> by admin </a>
+              </div>
+              <a href="#" class="title">ice-cream</a>
+              <p>Ice Cream, Desserts, Beverages, Shake Teynampet, Chennai.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-5.jpg" alt="" />
+              <span>pizza</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"> <i class="fas fa-calendar"></i> 21st Dec, 2021 </a>
+                <a href="#"> <i class="fas fa-user"></i> by admin </a>
+              </div>
+              <a href="#" class="title">Pizza</a>
+              <p>pizza,Fast Food,Nungampakkam,Chennai.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-img-6.jpg" alt="" />
+              <span>coffee</span>
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"> <i class="fas fa-calendar"></i> 28st Dec, 2021 </a>
+                <a href="#"> <i class="fas fa-user"></i> by admin </a>
+              </div>
+              <a href="#" class="title">Coffee</a>
+              <p>Starbucks Coffee Chennai, Velachery,Chennai.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-clock"></i>
+          <h3>opening hours</h3>
+          <p>07:00am to 10:00pm</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>phone</h3>
+          <p>+91 9444113241</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>email</h3>
+          <p>sivatsmr@gmail.com</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-map"></i>
+          <h3>address</h3>
+          <p>chennai, india - 600028</p>
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+
+      <div class="credit">
+        created by <span>Mr. sakthivel R</span> | all rights reserved!
+      </div>
+    </section>
+
+    <!-- footer section ends  -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".gallery .gallery-container"));
+    </script>
+  </body>
+</html>
